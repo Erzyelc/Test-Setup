@@ -4,11 +4,16 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #edede9;
+    color: #edede9;
+}
+
 header{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #8ecae6;
+    background-color: #264653;
     height: 100px;
 }
 
@@ -23,6 +28,10 @@ header p{
 
 nav a{
     text-decoration: none;
-    color: black;
+    color: #edede9;
     padding-left: 15px;
+}
+
+nav a:hover{
+    color: #219ebc;
 }
